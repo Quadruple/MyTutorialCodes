@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>SportsOut ile antrenörünüz artık her yerde!</title>
+    <link rel="stylesheet" type="text/css" href="externalcss.css">
+    <script src="forms.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- HEADER BEGİN -->
+    <div class="header">
+
+      <img src="img/wodpress.png" class="logo">
+      <p class="logotext">SportsOut</p>
+      <ul class="horizontalmenuul">
+
+				<li class="horizontalmenuli"><a class="horizontalmenua">Eğitim Paketleri</a></li>
+				<li class="horizontalmenuli"><a class="horizontalmenua" onclick="openTrainerForm()">Eğitmen Ol!</a></li>
+				<li class="horizontalmenuli"><a class="horizontalmenua" onclick="openMemberForm()">Üye Ol</a></li>
+				<li class="horizontalmenuli"><a class="horizontalmenua" onclick="openForm()">Giriş Yap</a></li>
+
+			</ul>
+
+    </div>
+    <!-- HEADER END -->
+
+    <!-- INFO SECTION BEGIN -->
+    <div class="middlecontainer">
+
+      <img src="img/middlepic.png" class="fittoscreen">
+      <div class="texttotopleft">EĞİTMENİNİZ ARTIK SİZ <br> NEREDEYSENİZ ORADA!</div>
+      <div class="texttotopleft2">İstediğiniz eğitmeni bulun ve hemen öğrenmeye başlayın</div>
+      <button class="buttontrainer" type="button" name="button" onclick="openTrainerForm()">Eğitmen Kayıt</button>
+      <button class="buttonmember" type="button" name="button" onclick="openMemberForm()">Üye Kayıt</button>
+
+    </div>
+    <!-- INFO SECTION END -->
+
+    <!-- FORM FOR SIGN IN BEGIN -->
+    <div class="form-popup" id="myForm">
+      <form class="form-container">
+
+        <h1>Giriş Yapın</h1>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Emailinizi Girin" name="email" required>
+
+        <label for="psw"><b>Şifre</b></label>
+        <input type="password" placeholder="Şifrenizi Girin" name="psw" required>
+
+        <button type="submit" class="btn">Giriş</button>
+        <button type="submit" class="btn cancel" onclick="closeForm()">Kapat</button>
+
+        <p>Eğer hesabınız yoksa Eğitmen Hesabı veya Üye Hesabı oluşturabilirsiniz!</p>
+        <p>Giriş yaparak Kullanım Şartları ve Gizlilik Politikamızı kabul etmiş olursunuz.</p>
+
+      </form>
+    </div>
+    <!-- FORM FOR SIGN IN END -->
+
+    <!-- FORM FOR TRAINER BEGIN -->
+    <div class="form-popup" id="trainersignupform">
+      <form class="form-container">
+
+        <h1>Eğitmen Ol</h1>
+
+        <label for="fullname"><b>Tam Adınız</b></label>
+        <input type="text" placeholder="Tam Adınız" name="fullname" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Emailinizi Girin" name="email" required>
+
+        <label for="psw"><b>Şifre</b></label>
+        <input type="password" placeholder="Şifrenizi Girin" name="psw" required>
+
+        <button type="submit" class="btn">Kaydol</button>
+        <button type="submit" class="btn cancel" onclick="closeTrainerForm()">Kapat</button>
+
+        <p>Kaydolarak Kullanım Şartları ve Gizlilik Politikamızı kabul etmiş olursunuz.</p>
+
+      </form>
+    </div>
+    <!-- FORM FOR TRAINER END -->
+
+    <!-- FORM FOR MEMBER BEGIN -->
+    <div class="form-popup" id="membersignupform">
+      <form class="form-container">
+
+        <h1>Üye Ol</h1>
+
+        <label for="fullname"><b>Tam Adınız</b></label>
+        <input type="text" placeholder="Tam Adınız" name="fullname" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Emailinizi Girin" name="email" required>
+
+        <label for="psw"><b>Şifre</b></label>
+        <input type="password" placeholder="Şifrenizi Girin" name="psw" required>
+
+        <button type="submit" class="btn">Kaydol</button>
+        <button type="submit" class="btn cancel" onclick="closeMemberForm()">Kapat</button>
+
+        <p>Kaydolarak Kullanım Şartları ve Gizlilik Politikamızı kabul etmiş olursunuz.</p>
+
+      </form>
+    </div>
+    <!-- FORM FOR MEMBER END -->
+
+  </body>
+</html>

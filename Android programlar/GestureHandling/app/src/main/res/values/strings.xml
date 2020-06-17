@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gesture Handling</string>
+    <string name="gesture_message">Gesture Actions Will Appear Here</string>
+</resources>

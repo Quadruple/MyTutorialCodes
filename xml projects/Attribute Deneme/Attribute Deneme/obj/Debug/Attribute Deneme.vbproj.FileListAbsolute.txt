@@ -1,0 +1,8 @@
+C:\Users\Atakan\Desktop\xml projects\Attribute Deneme\Attribute Deneme\bin\Attribute Deneme.dll
+C:\Users\Atakan\Desktop\xml projects\Attribute Deneme\Attribute Deneme\bin\Attribute Deneme.pdb
+C:\Users\Atakan\Desktop\xml projects\Attribute Deneme\Attribute Deneme\bin\Attribute Deneme.xml
+C:\Users\Atakan\Desktop\xml projects\Attribute Deneme\Attribute Deneme\obj\Debug\Attribute_Deneme.Resources.resources
+C:\Users\Atakan\Desktop\xml projects\Attribute Deneme\Attribute Deneme\obj\Debug\Attribute Deneme.vbproj.GenerateResource.Cache
+C:\Users\Atakan\Desktop\xml projects\Attribute Deneme\Attribute Deneme\obj\Debug\Attribute Deneme.dll
+C:\Users\Atakan\Desktop\xml projects\Attribute Deneme\Attribute Deneme\obj\Debug\Attribute Deneme.xml
+C:\Users\Atakan\Desktop\xml projects\Attribute Deneme\Attribute Deneme\obj\Debug\Attribute Deneme.pdb

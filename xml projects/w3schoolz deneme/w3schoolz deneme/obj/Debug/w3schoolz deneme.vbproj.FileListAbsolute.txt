@@ -1,0 +1,8 @@
+C:\Users\Atakan\Desktop\xml projects\w3schoolz deneme\w3schoolz deneme\bin\w3schoolz deneme.dll
+C:\Users\Atakan\Desktop\xml projects\w3schoolz deneme\w3schoolz deneme\bin\w3schoolz deneme.pdb
+C:\Users\Atakan\Desktop\xml projects\w3schoolz deneme\w3schoolz deneme\bin\w3schoolz deneme.xml
+C:\Users\Atakan\Desktop\xml projects\w3schoolz deneme\w3schoolz deneme\obj\Debug\w3schoolz_deneme.Resources.resources
+C:\Users\Atakan\Desktop\xml projects\w3schoolz deneme\w3schoolz deneme\obj\Debug\w3schoolz deneme.vbproj.GenerateResource.Cache
+C:\Users\Atakan\Desktop\xml projects\w3schoolz deneme\w3schoolz deneme\obj\Debug\w3schoolz deneme.dll
+C:\Users\Atakan\Desktop\xml projects\w3schoolz deneme\w3schoolz deneme\obj\Debug\w3schoolz deneme.xml
+C:\Users\Atakan\Desktop\xml projects\w3schoolz deneme\w3schoolz deneme\obj\Debug\w3schoolz deneme.pdb

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>BayÜçA - Kod, Araba, Hayat</title>
+    <link rel="stylesheet" type="text/css" href="external.css">
+    <script src="forms.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- HEADER BEGIN -->
+    <div class="navbar">
+      <a href="" class="somedistance" >Ben Kimim?</a>
+      <a href="" class="somedistance">Neden Blog?</a>
+      <div class="dropdown">
+        <button class="dropbtn">Mevzubahisler
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="">Programlama</a>
+          <a href="">Arabalar</a>
+          <a href="">Hayattan Konuşalım</a>
+        </div>
+      </div>
+      <button type="button" name="button" class="sendright" onclick="openMemberForm()">Üye Ol</button>
+      <button type="button" name="button" class="sendright" onclick="openForm()">GirişYap</button>
+    </div>
+    <!-- HEADER END -->
+
+    <!-- FORM FOR SIGN IN BEGIN -->
+    <div class="form-popup" id="myForm">
+      <form class="form-container">
+
+        <h1>Giriş Yapın</h1>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Emailini Gir" name="email" required>
+
+        <label for="psw"><b>Şifre</b></label>
+        <input type="password" placeholder="Şifreni Gir" name="psw" required>
+
+        <button type="submit" class="btn">Giriş</button>
+        <button type="submit" class="btn cancel" onclick="closeForm()">Kapat</button>
+
+        <p>Bloguma üye olmadan da içerikleri görebilirsin. Ancak yazdıklarıma yorum yapmak ve değerlendirmek için üye olman gerekli. Ne de olsa kiminle konuştuğumu bilmek ve seni
+        tanımak benim adıma çok mutlu edici.</p>
+
+      </form>
+    </div>
+    <!-- FORM FOR SIGN IN END -->
+
+    <!-- FORM FOR MEMBER BEGIN -->
+    <div class="form-popup" id="membersignupform">
+      <form class="form-container">
+
+        <h1>Üye Ol</h1>
+
+        <label for="fullname"><b>Tam Adın</b></label>
+        <input type="text" placeholder="Tam Adın" name="fullname" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Emailini Gir" name="email" required>
+
+        <label for="psw"><b>Şifre</b></label>
+        <input type="password" placeholder="Şifreni Gir" name="psw" required>
+
+        <button type="submit" class="btn">Kaydol</button>
+        <button type="submit" class="btn cancel" onclick="closeMemberForm()">Kapat</button>
+
+        <p>Bloguma üye olarak yazdıklarıma yorum yapabilir ve değerlendirebilirsin. Tabi ki hiçbir ücret beklemiyorum. Sadece konuş ve paylaş!</p>
+
+      </form>
+    </div>
+    <!-- FORM FOR MEMBER END -->
+
+  </body>
+</html>

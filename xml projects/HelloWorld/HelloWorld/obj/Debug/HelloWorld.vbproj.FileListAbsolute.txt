@@ -1,0 +1,8 @@
+C:\Users\Atakan\Desktop\xml projects\HelloWorld\HelloWorld\bin\HelloWorld.dll
+C:\Users\Atakan\Desktop\xml projects\HelloWorld\HelloWorld\bin\HelloWorld.pdb
+C:\Users\Atakan\Desktop\xml projects\HelloWorld\HelloWorld\bin\HelloWorld.xml
+C:\Users\Atakan\Desktop\xml projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Resources.resources
+C:\Users\Atakan\Desktop\xml projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.vbproj.GenerateResource.Cache
+C:\Users\Atakan\Desktop\xml projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+C:\Users\Atakan\Desktop\xml projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.xml
+C:\Users\Atakan\Desktop\xml projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

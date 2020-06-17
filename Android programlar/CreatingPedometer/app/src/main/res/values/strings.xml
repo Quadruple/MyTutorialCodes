@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Creating Pedometer</string>
+    <String name = "step_counter">
+        android.hardware.sensor.stepcounter
+    </String>
+    <String name = "step_detector">
+        android.hardware.sensor.stepdetector
+    </String>
+</resources>

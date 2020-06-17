@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Creating User Interface</string>
+    <string name="SignInScreenTitle">Sign In Screen</string>
+    <string name="LogInButtonTitle">Log In</string>
+</resources>

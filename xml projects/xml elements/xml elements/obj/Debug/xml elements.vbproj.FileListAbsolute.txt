@@ -1,0 +1,8 @@
+C:\Users\Atakan\Desktop\xml projects\xml elements\xml elements\bin\xml elements.dll
+C:\Users\Atakan\Desktop\xml projects\xml elements\xml elements\bin\xml elements.pdb
+C:\Users\Atakan\Desktop\xml projects\xml elements\xml elements\bin\xml elements.xml
+C:\Users\Atakan\Desktop\xml projects\xml elements\xml elements\obj\Debug\xml_elements.Resources.resources
+C:\Users\Atakan\Desktop\xml projects\xml elements\xml elements\obj\Debug\xml elements.vbproj.GenerateResource.Cache
+C:\Users\Atakan\Desktop\xml projects\xml elements\xml elements\obj\Debug\xml elements.dll
+C:\Users\Atakan\Desktop\xml projects\xml elements\xml elements\obj\Debug\xml elements.xml
+C:\Users\Atakan\Desktop\xml projects\xml elements\xml elements\obj\Debug\xml elements.pdb

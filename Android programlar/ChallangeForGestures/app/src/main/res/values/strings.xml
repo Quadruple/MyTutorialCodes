@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Challange For Gestures</string>
+    <string name="button_text">Gesture Action Button</string>
+    <string name="gesture_text">Gesture Action Will Appear Here</string>
+</resources>

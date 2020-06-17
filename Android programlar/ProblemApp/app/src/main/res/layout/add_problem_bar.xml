@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.babacan.problemapp.FixMenuActivity$PlaceholderFragment">
+
+    <TextView
+        android:text="Başlık :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/addProblemTitleText"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/addProblemTitleInput"
+        android:layout_alignBottom="@+id/addProblemTitleText"
+        android:layout_toRightOf="@+id/addProblemTitleText"
+        android:layout_toEndOf="@+id/addProblemTitleText" />
+
+    <TextView
+        android:text="Paylaşımınızın Hashtag'i"
+        android:layout_marginTop="19dp"
+        android:id="@+id/addProblemHashtagText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addProblemProblemInput"
+        android:layout_alignLeft="@+id/addProblemTitleText"
+        android:layout_alignStart="@+id/addProblemTitleText"
+        android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+    <TextView
+        android:text="Çekinmeden Paylaşın !"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/addProblemProblemText"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:layout_below="@+id/addProblemTitleInput"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Paylaşımınızın oylanmasını istiyor musunuz?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addProblemHashtagText"
+        android:layout_alignLeft="@+id/addProblemHashtagText"
+        android:layout_alignStart="@+id/addProblemHashtagText"
+        android:layout_marginTop="21dp"
+        android:id="@+id/addProblemVotingText" />
+
+    <RadioButton
+        android:text="Evet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addProblemVotingText"
+        android:layout_alignLeft="@+id/addProblemVotingText"
+        android:layout_alignStart="@+id/addProblemVotingText"
+        android:id="@+id/addProblemVotingRadioButtonYes" />
+
+    <RadioButton
+        android:text="Hayır"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addProblemVotingText"
+        android:layout_alignRight="@+id/addProblemVotingText"
+        android:layout_alignEnd="@+id/addProblemVotingText"
+        android:id="@+id/addProblemVotingRadioButtonNo" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/addProblemHashtagInput"
+        android:layout_above="@+id/addProblemVotingText"
+        android:layout_alignLeft="@+id/addProblemAddButton"
+        android:layout_alignStart="@+id/addProblemAddButton" />
+
+    <!-- In the edit text, arranging the lines that will show up and adding a scroll bar -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="6"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:ems="10"
+        android:layout_marginTop="13dp"
+        android:id="@+id/addProblemProblemInput"
+        android:width="400dp"
+        android:layout_height="175dp"
+        android:layout_below="@+id/addProblemProblemText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Paylaş !"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addProblemAddButton"
+        android:layout_below="@+id/addProblemVotingRadioButtonNo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>

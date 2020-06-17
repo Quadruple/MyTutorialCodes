@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+	<head>
+
+		<!-- All CSS arrangements goes into the head tags and represented with <style> tags-->
+			<!-- You can put more than one elements for same rules. You spesify it with h1, h2 -->
+			<!-- You can write a rule for body element and those rules will be inherited through all of the body. But you can override that rule if you write another rule for a more spesific element -->
+		<style>
+			
+			h1 {
+
+				background-color: green;
+				border: 1px solid black;
+
+			}
+
+			p{
+
+				color: red;
+				font-size: 25px;
+				font-family: Helvetica;
+
+			}
+
+			h1, h2 { 
+
+				font-size: 50px;
+				font-family: Helvetica;
+
+			}
+
+			h2 {
+
+				border-bottom: 1px solid black;
+
+			}
+
+			p.individually {
+
+				font-size: 70px;
+				color: pink;
+
+			}
+
+			.underline {
+
+				text-decoration: underline;
+
+			}
+
+			p.lighter {
+
+				font-weight: lighter;
+
+			}
+
+			p.normal {
+
+				font-weight: normal;
+
+			}
+
+			p.bold {
+
+				font-weight: bold;
+
+			}
+
+			p.bolder {
+
+				font-weight: bolder;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<h1>The Fish Website</h1>
+		<p>Welcome to the fish website</p>
+		<h2>This is a section about Bass Fish</h2>
+		<p>Bass fish lives in lakes</p><br>
+		<p class="individually">This paragraph element has been selected individually by CSS by using class attribute.</p><br>
+		<p class="underline individually">This paragraph element has been affected by 2 different classes
+
+			<blockquote class="underline">
+				
+				This is a blockquote
+
+			</blockquote>
+
+		</p><br>
+		<p class="lighter">This is lighter class</p><br>
+		<p class="normal">This is normal class</p><br>
+		<p class="bold">This is bold class</p><br>
+		<p class="bolder">This is bolder class</p><br>
+
+	</body>
+
+</html>

@@ -1,0 +1,8 @@
+C:\Users\Atakan\Desktop\xml projects\XML CDATA Sections\XML CDATA Sections\bin\XML CDATA Sections.dll
+C:\Users\Atakan\Desktop\xml projects\XML CDATA Sections\XML CDATA Sections\bin\XML CDATA Sections.pdb
+C:\Users\Atakan\Desktop\xml projects\XML CDATA Sections\XML CDATA Sections\bin\XML CDATA Sections.xml
+C:\Users\Atakan\Desktop\xml projects\XML CDATA Sections\XML CDATA Sections\obj\Debug\XML_CDATA_Sections.Resources.resources
+C:\Users\Atakan\Desktop\xml projects\XML CDATA Sections\XML CDATA Sections\obj\Debug\XML CDATA Sections.vbproj.GenerateResource.Cache
+C:\Users\Atakan\Desktop\xml projects\XML CDATA Sections\XML CDATA Sections\obj\Debug\XML CDATA Sections.dll
+C:\Users\Atakan\Desktop\xml projects\XML CDATA Sections\XML CDATA Sections\obj\Debug\XML CDATA Sections.xml
+C:\Users\Atakan\Desktop\xml projects\XML CDATA Sections\XML CDATA Sections\obj\Debug\XML CDATA Sections.pdb

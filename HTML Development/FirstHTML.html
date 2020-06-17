@@ -1,0 +1,272 @@
+<!doctype html>
+
+<html>
+
+	<head>
+
+		<title> My First HTML Page </title>
+		<!-- Other then title tags, coder should write some meta values between head tags -->
+		<!-- Meta tags are used for talking to the search engine and browser without printing the information to the user. -->
+		<!-- Meta tags will also affect to the search results of your webpage -->
+		<meta charset="utf-8" name="descripttion" content="This is a webpage about everything you are looking for. Its about the whole damn world.">
+		<!-- This description will be displayed when a user searches your website on a search engine. -->
+		<meta charset="utf-8" name="keywords" content="kendrick, eminem, lamar, drdre, 50cent">
+		<meta charset="utf-8" http-equiv="author" content="Mute Spittah">
+		<meta charset="utf-8" http-equiv="content-language" content="en-tr">
+
+	</head>
+
+	<body>
+
+		<h1> The Fish Website </h1>
+		<p> Welcome to the fish website. Everything you want to know about fish is in this website. </p>
+		<br><br><br>
+		<h2> This is a section about Bass Fish </h2>
+		<!-- This is an internal command
+			which is for every line until you close it with this -->
+		<!-- You can put extra spaces between text with &nbsp variable -->
+		<p1> Bass fish live in lakes. </p1>
+		<br><br><br>
+		<!-- For unordered list the tag is <ul>
+		     For ordered list the tag is <ol> 
+		     For list item the tag is <li>-->
+
+		<p2>This is an unordered list</p2>
+		<ul>
+			
+			<li>Red Fish</li> 
+			<li>Yellow Fish</li>
+			<li>Purple Fish</li>
+			<li>Blue Fish</li>
+
+		</ul>
+
+		<br><br><br>
+
+		<p3>This is an ordered list</p3>
+		<ol>
+			
+			<li>Red Fish</li> 
+			<li>Yellow Fish</li>
+			<li>Purple Fish</li>
+			<li>Blue Fish</li>
+
+		</ol>
+
+		<br><br><br>
+
+		<p4>Lets put a table here</p4>
+
+		<table>
+			
+			<tr>
+				
+				<th>The Planets</th>
+				<th>The Oceans</th>
+				<th>The Deserts</th>
+
+			</tr>
+
+			<tr>
+				
+				<th>Earth</th>
+				<th>Pacific</th>
+				<th>Sahara</th>
+
+			</tr>
+
+			<tr>
+				
+				<th>Pluto</th>
+				<th>Atlantic</th>
+				<th>Gobi</th>
+
+			</tr>
+
+		</table>
+
+		<br><br><br>
+
+		<p5>Lets put a link here to redirect the user to a different website</p5>
+		<br>
+		<p6>Please ask your remaining questions to the uncle </p6>
+		<a href="https://www.google.com.tr/">Google</a>
+
+		<br><br><br>
+
+		<p7>Lets try linking some addresses on our own page</p7>
+		<br>
+
+		<ul>
+			
+			<li>  <a href="#Birds">Birds Section</a> </li>
+			<li>  <a href="#Ducks">Ducks Section</a> </li>
+
+		</ul>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<p8>  <a name="Birds"> Welcome to the section of birds. </p8>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<p9>  <a name="Ducks"> Welcome to the section of ducks. </p9>
+
+		<br><br><br>
+
+		<h1>Our Little Cute SportsOut Logo</h1>
+		<br>
+		<!-- Title is for hovering over. When you hover over the element, a little explanation is displayed and it is title -->
+		<p10>  <img src="SportsOut.png" width="100" height="100" title="SportsOut Logo" alt="SportsOut Logo"> </p10>
+
+		<br><br><br>
+
+		<p11>Lets put an input text box here</p11> <br>
+		<!-- Widgets like text boxes goes into form element in HTML so let's open a form -->
+		<form action="" method=""> <!-- action and method parts are about javascript and php, dont worry about them now --> 
+
+			<!-- input elements go into here -->
+			<!-- Lets put some labels for our input text boxes -->
+			<!-- For creating labels you need to make a label tag and close it, give it a for attribute and then match the for attribute in the text box using the id attribute -->
+			<!-- Lets add our labels -->
+			<label for="rappername">Rapper Name:</label>
+			<input type="text" name="" size="50" id="rappername"> <br>
+
+			<label for="rappersong">Rapper's Song</label> 
+			<input type="text" name="" id="rappersong">
+
+		</form>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<p12>Lets add a multiline text box here and a button. Thats nasty!</p12> <br>
+		<form action="" method="">
+			
+			<label for="sending">Write what to send:</label><br>
+			<textarea rows="10" cols="30" id="sending"></textarea> <br>
+			<input type="submit" value="Send It! Yo!">
+
+		</form>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<p13>Lets add some radiobuttons here</p13><br>
+		<form>
+			
+			<!-- For radiobuttons the attribute "name" should be the same for every radiobutton. Because you can only choose one of them in the same name group.
+			 -->
+			<label for="yes">Yes</label>
+			<input type="radio" name="yesorno" value="" id="yes">
+			<label for="no">No</label>
+			<input type="radio" name="yesorno" value="" id="no">
+
+		</form>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<p14>Lets add some checkboxes here</p14><br>
+		<form>
+			
+			<p15>Which sports you are interested in?</p15><br>
+			<!-- The attribute checked is for loading the page as Football box already checked -->
+			<input type="checkbox" name="" checked="checked"> Football <br>
+			<input type="checkbox" name=""> Basketball <br>
+			<input type="checkbox" name=""> Snowboarding <br>
+			<input type="checkbox" name=""> Skiing <br>
+
+		</form>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<p14>Lets add some number input box here</p14><br>
+		<form>
+			
+			<input type="number" name="" min="0" max="50">
+
+		</form>
+
+		<br><br><br><br>
+
+		<p15>Lets add some drop down list here</p15><br>
+		<form action="" method="">
+			
+			<!-- For drop down menu you create select tags inside a form and then create option tag fields -->
+			<!-- Value attribute is about javascript and php parts -->
+			<select>
+				
+				<option value="kendrick">Kendrick Lamar</option>
+				<option value="eminem">Eminem</option>
+				<option value="drdre">Dr. Dre</option>
+				<option value="50cent">50 Cent</option>
+
+			</select>
+
+		</form>
+
+		<br><br><br><br>
+
+		<p16>Lets add some date box and number box here</p16><br>
+		<form action="" method="">
+			
+			<p17>Enter the day you want to travel to Coimbra</p17>
+			<input type="date" name="day"><br>
+			<p18>Number of days:</p18>
+			<input type="number" name="numdays" min="1" max="10">
+
+		</form>
+
+		<br><br><br><br>
+
+		<p19>Lets cover our datebox and numberbox with a Fieldbox and a legend to make it look nicer and nastier</p19><br>
+		<form action="" method="">
+
+			<fieldset>
+
+				<legend>Enter the day you want to travel to Coimbra &copy</legend>
+				<input type="date" name="day"><br>
+				<p21>Number of days:</p21>
+				<input type="number" name="numdays" min="1" max="10"><br><br>
+				<input type="text" name="">
+
+			</fieldset>
+
+		</form>
+
+		<!-- Some escape characters for some signs
+			space: &nbsp; 
+			trademark &#8482
+			& &amp
+			copy &copy
+			< &lt
+			> &gt
+			? &#63 -->
+
+		<br><br><br><br>
+		<p22>This is a <b>bold element</b>.</p22><br>
+		<p23>This is a <strong>strong element</strong>.</p23><br>
+		<p24>This is a <i>italic element</i>.</p24><br>
+		<p25>This is a <em>em element</em>.</p25><br>
+		<!-- Difference between strong-bold and italic-em is nothing about style. The difference is strong and em is more futuristic and technologic -->
+
+		<br><br><br><br>
+
+		<p26>Let's try iframe element here with 2 additional pages.</p26><br>
+		<iframe src="kendrick.html" frameborder="1" width="200" height="200" name="ouriframe" id="ouriframe">
+			
+			<p27>Do you see this</p27>
+
+		</iframe><br>
+
+		<a href="eminem.html" target="ouriframe">Switch the displayed page to eminems page</a>
+
+		<br><br><br><br>
+
+		<p28>This is a sup element. Ex: August 3<sup>rd</sup></p28><br>
+		<p29>This is a sub element. Ex:  H<sub>2</sub>0</p29><br>
+
+		<!-- Dont forget that you can put audio and video elements in your webpage. When it comes to that place, search them on EJ Media's youtube channel -->
+
+	</body>
+
+</html>

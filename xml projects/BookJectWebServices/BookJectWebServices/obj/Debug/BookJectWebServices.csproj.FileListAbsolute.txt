@@ -1,0 +1,5 @@
+C:\Users\Atakan\Desktop\xml projects\BookJectWebServices\BookJectWebServices\bin\BookJectWebServices.dll
+C:\Users\Atakan\Desktop\xml projects\BookJectWebServices\BookJectWebServices\bin\BookJectWebServices.pdb
+C:\Users\Atakan\Desktop\xml projects\BookJectWebServices\BookJectWebServices\obj\Debug\BookJectWebServices.dll
+C:\Users\Atakan\Desktop\xml projects\BookJectWebServices\BookJectWebServices\obj\Debug\BookJectWebServices.pdb
+C:\Users\Atakan\Desktop\xml projects\BookJectWebServices\BookJectWebServices\obj\Debug\BookJectWebServices.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="fragment_button">Press to meme da Blackberry</string>
+    <string name="bottom_fragment_top_message">Top</string>
+    <string name="bottom_fragment_bottom_message">Bottom</string>
+</resources>
